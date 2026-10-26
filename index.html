@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kahuna — The record experiment</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><a class="brand" href="index.html">KAHUNA<span> / 01</span></a><span class="tag">A SMALL MACHINE FOR A BIG QUESTION</span><a href="https://github.com/anttiluode/Kahuna">Source ↗</a></header>
+<main>
+<section class="intro"><div><p class="eyebrow">THE RECORD EXPERIMENT</p><h1>Learn something new.<br><em>Keep what still works.</em></h1><p class="lede">Four records. A moving needle. Watch a machine learn where to read—and see what happens when we stop it from writing.</p></div><aside><span class="dot"></span> LIVE, LOCAL & REPRODUCIBLE<p>No downloads. No training service. Every groove below is a number the learner actually uses.</p><small>V0 · supervised 2D transformations · no task IDs</small></aside></section>
+<section class="controls" aria-label="Experiment controls">
+<label>Experiment<select id="scenario"><option value="stable">01 / Familiar worlds return</option><option value="drift">02 / The rule changes</option><option value="ambiguous">03 / Same cue, different rules</option><option value="capacity">04 / Six worlds, four records</option></select></label>
+<label>Seed<input id="seed" type="number" value="11" min="0" max="4294967295" step="1"></label>
+<button id="play" class="primary">Run experiment</button><button id="step">+1 sample</button><button id="finish">Finish run</button><button id="reset">Reset</button><button id="export">Export JSON ↓</button>
+</section>
+<p id="description" class="description"></p>
+<section class="strip"><div><small>SAMPLES</small><strong id="progress">0 / 2048</strong></div><div><small>RECORDS IN USE</small><strong id="used">0 / 4</strong></div><div><small>PROTECTED WRITES</small><strong id="writes">0</strong></div><div><small>CAPACITY REFUSALS</small><strong id="full">0</strong></div></section>
+<section class="panel"><div class="panel-title"><h2>The protected bank</h2><span id="action" role="status">Waiting for the first encounter</span></div>
+<div id="records" class="records"></div>
+<div class="legend"><span><i class="coral"></i> positive weight</span><span><i class="blue"></i> negative weight</span><span>Needle = route selected from the observed cue</span><span>Lock = 128 writes reached</span></div>
+<p class="note">Each disc is a 2 × 2 matrix. The rings visualize its four weights; rotation is an illustration, not the learning algorithm. Context centers and records freeze together.</p></section>
+<section class="lower"><div class="panel"><div class="panel-title"><h2>Does it remember?</h2><span>Lower error is better</span></div>
+<div class="table-wrap"><table><thead><tr><th>Learner</th><th>Online MSE</th><th>Current rules MSE</th><th>Old-rule change</th></tr></thead><tbody id="scores"></tbody></table></div>
+<svg id="chart" viewBox="0 0 600 170" role="img" aria-label="Original-rule mean squared error after each block"></svg>
+<p class="note">Line chart: original-rule error over contexts encountered so far. New contexts can change the average. Dashed grid labels show its current scale. Old-rule change compares each context with its own first-block score; zero can also mean it never learned.</p></div>
+<div class="panel"><div class="panel-title"><h2>The latest move</h2><span>Predict → score → learn</span></div><svg id="move" viewBox="0 0 260 210" role="img" aria-label="Input, target and three pre-update predicted vectors"></svg><div class="legend small"><span>○ input</span><span>✦ target</span><span class="protected-text">● protected</span><span class="adaptive-text">● adaptive</span><span class="shared-text">● shared</span></div><p id="cue" class="note">A continuous cue tells the learner about its surroundings.</p></div></section>
+<section class="verdict"><p class="eyebrow">WHAT THIS RUN CAN TELL YOU</p><h2 id="verdict">Start with the easy world. Then change its rules.</h2><p id="detail">The adaptive bank is the important control: it has exactly the same routing and records, with writing left enabled.</p><p id="composition"></p></section>
+<footer><p><b>224 bytes of numeric state per learner.</b> Includes record matrices, context centers and write counts, or 28 shared-model coefficients. Excludes JavaScript object overhead, global bookkeeping and scratch memory. No replay buffer.</p><p>This is an inspectable toy, not a claim to have solved continual learning. The cues are hand-designed to be informative. Freezing happens after a fixed number of writes; permission to write is not learned. <a href="docs/protocol.md">Read the protocol ↗</a></p></footer>
+</main><script src="core.js"></script><script src="app.js"></script>
+</body></html>

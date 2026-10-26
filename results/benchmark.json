@@ -1,0 +1,3118 @@
+{
+  "protocol": "docs/protocol.md",
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "summary": [
+    {
+      "scenario": "stable",
+      "model": "protected",
+      "onlineMSE": {
+        "mean": 0.005639995968954912,
+        "sd": 0.00036287805144982977
+      },
+      "acquisitionMSE": {
+        "mean": 0.000013230188799793579,
+        "sd": 0.00000319117642208561
+      },
+      "finalMSE": {
+        "mean": 0.000013230188799793579,
+        "sd": 0.00000319117642208561
+      },
+      "oldMSE": {
+        "mean": 0.000013230188799793579,
+        "sd": 0.00000319117642208561
+      },
+      "forgetting": {
+        "mean": 0,
+        "sd": 0
+      },
+      "compositionMSE": {
+        "mean": 0.00002743736110791898,
+        "sd": 0.00000693512793579875
+      },
+      "full": {
+        "mean": 0,
+        "sd": 0
+      }
+    },
+    {
+      "scenario": "stable",
+      "model": "adaptive",
+      "onlineMSE": {
+        "mean": 0.0056380163663702215,
+        "sd": 0.0003604201012000115
+      },
+      "acquisitionMSE": {
+        "mean": 0.0000073479929370868275,
+        "sd": 0.0000018474746411853987
+      },
+      "finalMSE": {
+        "mean": 0.000009307074178057001,
+        "sd": 0.0000031463640053389536
+      },
+      "oldMSE": {
+        "mean": 0.000009307074178057001,
+        "sd": 0.0000031463640053389536
+      },
+      "forgetting": {
+        "mean": 0.000001959081240970173,
+        "sd": 0.000004195900020082263
+      },
+      "compositionMSE": {
+        "mean": 0.000020182705207830416,
+        "sd": 0.00000608557795852158
+      },
+      "full": {
+        "mean": 0,
+        "sd": 0
+      }
+    },
+    {
+      "scenario": "stable",
+      "model": "shared",
+      "onlineMSE": {
+        "mean": 0.008404256827288343,
+        "sd": 0.0004225204393226007
+      },
+      "acquisitionMSE": {
+        "mean": 0.0026298194893761375,
+        "sd": 0.00022732459830036457
+      },
+      "finalMSE": {
+        "mean": 0.016925748672502954,
+        "sd": 0.00561564713990055
+      },
+      "oldMSE": {
+        "mean": 0.016925748672502954,
+        "sd": 0.00561564713990055
+      },
+      "forgetting": {
+        "mean": 0.014295929183126818,
+        "sd": 0.005771472892124695
+      },
+      "compositionMSE": {
+        "mean": 0.03812021752942436,
+        "sd": 0.011318320052752231
+      },
+      "full": {
+        "mean": 0,
+        "sd": 0
+      }
+    },
+    {
+      "scenario": "drift",
+      "model": "protected",
+      "onlineMSE": {
+        "mean": 0.08864645216440162,
+        "sd": 0.0016295364619765603
+      },
+      "acquisitionMSE": {
+        "mean": 0.000013230188799793579,
+        "sd": 0.00000319117642208561
+      },
+      "finalMSE": {
+        "mean": 0.1647304343140002,
+        "sd": 0.0010393370723157244
+      },
+      "oldMSE": {
+        "mean": 0.000013230188799793579,
+        "sd": 0.00000319117642208561
+      },
+      "forgetting": {
+        "mean": 0,
+        "sd": 0
+      },
+      "compositionMSE": {
+        "mean": 0.3297658323306266,
+        "sd": 0.0017933622854973735
+      },
+      "full": {
+        "mean": 0,
+        "sd": 0
+      }
+    },
+    {
+      "scenario": "drift",
+      "model": "adaptive",
+      "onlineMSE": {
+        "mean": 0.008286389157662286,
+        "sd": 0.0005351412603666738
+      },
+      "acquisitionMSE": {
+        "mean": 0.0000073479929370868275,
+        "sd": 0.0000018474746411853987
+      },
+      "finalMSE": {
+        "mean": 0.000009307074214162646,
+        "sd": 0.0000031463649515276986
+      },
+      "oldMSE": {
+        "mean": 0.1656177197760111,
+        "sd": 0.0006284907689427449
+      },
+      "forgetting": {
+        "mean": 0.16561037178307406,
+        "sd": 0.0006273678019094675
+      },
+      "compositionMSE": {
+        "mean": 0.00001899528491186566,
+        "sd": 0.000005757823382993237
+      },
+      "full": {
+        "mean": 0,
+        "sd": 0
+      }
+    },
+    {
+      "scenario": "drift",
+      "model": "shared",
+      "onlineMSE": {
+        "mean": 0.009819771161298008,
+        "sd": 0.0004783554314372545
+      },
+      "acquisitionMSE": {
+        "mean": 0.0026298194893761375,
+        "sd": 0.00022732459830036457
+      },
+      "finalMSE": {
+        "mean": 0.03934172736667759,
+        "sd": 0.006810912052075736
+      },
+      "oldMSE": {
+        "mean": 0.20071272332426676,
+        "sd": 0.01055084822064636
+      },
+      "forgetting": {
+        "mean": 0.19808290383489063,
+        "sd": 0.01039458311359014
+      },
+      "compositionMSE": {
+        "mean": 0.08019195245335069,
+        "sd": 0.013196035017676952
+      },
+      "full": {
+        "mean": 0,
+        "sd": 0
+      }
+    },
+    {
+      "scenario": "ambiguous",
+      "model": "protected",
+      "onlineMSE": {
+        "mean": 0.6674993665797935,
+        "sd": 0.006385940030151907
+      },
+      "acquisitionMSE": {
+        "mean": 0.6597614191073099,
+        "sd": 0.0022010483028284027
+      },
+      "finalMSE": {
+        "mean": 0.6597614191073099,
+        "sd": 0.0022010483028284027
+      },
+      "oldMSE": {
+        "mean": 0.6597614191073099,
+        "sd": 0.0022010483028284027
+      },
+      "forgetting": {
+        "mean": 0,
+        "sd": 0
+      },
+      "compositionMSE": {
+        "mean": 0.6582300216474563,
+        "sd": 0.004366532252038877
+      },
+      "full": {
+        "mean": 0,
+        "sd": 0
+      }
+    },
+    {
+      "scenario": "ambiguous",
+      "model": "adaptive",
+      "onlineMSE": {
+        "mean": 0.023698279428628358,
+        "sd": 0.004017782928241799
+      },
+      "acquisitionMSE": {
+        "mean": 0.0000073479670036224875,
+        "sd": 0.0000018474547950050404
+      },
+      "finalMSE": {
+        "mean": 0.6607503042197205,
+        "sd": 0.0008288496330651128
+      },
+      "oldMSE": {
+        "mean": 0.6607503042197205,
+        "sd": 0.0008288496330651128
+      },
+      "forgetting": {
+        "mean": 0.6607429562527167,
+        "sd": 0.0008280040453801773
+      },
+      "compositionMSE": {
+        "mean": 0.6601875010651931,
+        "sd": 0.0016634025933413006
+      },
+      "full": {
+        "mean": 0,
+        "sd": 0
+      }
+    },
+    {
+      "scenario": "ambiguous",
+      "model": "shared",
+      "onlineMSE": {
+        "mean": 0.020426262681562286,
+        "sd": 0.00295721040309323
+      },
+      "acquisitionMSE": {
+        "mean": 0.0020746147871243867,
+        "sd": 0.00005666337886500521
+      },
+      "finalMSE": {
+        "mean": 0.6575314104668474,
+        "sd": 0.011313605177735699
+      },
+      "oldMSE": {
+        "mean": 0.6575314104668474,
+        "sd": 0.011313605177735699
+      },
+      "forgetting": {
+        "mean": 0.6554567956797229,
+        "sd": 0.011301051472735682
+      },
+      "compositionMSE": {
+        "mean": 0.6616326895153077,
+        "sd": 0.02297394322302544
+      },
+      "full": {
+        "mean": 0,
+        "sd": 0
+      }
+    },
+    {
+      "scenario": "capacity",
+      "model": "protected",
+      "onlineMSE": {
+        "mean": 0.11370862171967426,
+        "sd": 0.002458549583128107
+      },
+      "acquisitionMSE": {
+        "mean": 0.1102273182990587,
+        "sd": 0.0000025883947269696967
+      },
+      "finalMSE": {
+        "mean": 0.1102273182990587,
+        "sd": 0.0000025883947269696967
+      },
+      "oldMSE": {
+        "mean": 0.1102273182990587,
+        "sd": 0.0000025883947269696967
+      },
+      "forgetting": {
+        "mean": 0,
+        "sd": 0
+      },
+      "compositionMSE": {
+        "mean": 0.1837111451569112,
+        "sd": 0.000003027128375660027
+      },
+      "full": {
+        "mean": 1024,
+        "sd": 0
+      }
+    },
+    {
+      "scenario": "capacity",
+      "model": "adaptive",
+      "onlineMSE": {
+        "mean": 0.11370883887170054,
+        "sd": 0.0024598539100168008
+      },
+      "acquisitionMSE": {
+        "mean": 0.11022940016583574,
+        "sd": 0.0000016416946050147215
+      },
+      "finalMSE": {
+        "mean": 0.11022665224164607,
+        "sd": 0.0000012366433599759207
+      },
+      "oldMSE": {
+        "mean": 0.11022665224164607,
+        "sd": 0.0000012366433599759207
+      },
+      "forgetting": {
+        "mean": -0.0000027479241896584605,
+        "sd": 0.0000020033118111251984
+      },
+      "compositionMSE": {
+        "mean": 0.18370946862627296,
+        "sd": 0.000001131259006768509
+      },
+      "full": {
+        "mean": 1024,
+        "sd": 0
+      }
+    },
+    {
+      "scenario": "capacity",
+      "model": "shared",
+      "onlineMSE": {
+        "mean": 0.010361118582444524,
+        "sd": 0.0018358549886149014
+      },
+      "acquisitionMSE": {
+        "mean": 0.0023667584510856216,
+        "sd": 0.00025187125010684536
+      },
+      "finalMSE": {
+        "mean": 0.23611675256505635,
+        "sd": 0.03778026925348294
+      },
+      "oldMSE": {
+        "mean": 0.23611675256505635,
+        "sd": 0.03778026925348294
+      },
+      "forgetting": {
+        "mean": 0.23374999411397074,
+        "sd": 0.03772775835355966
+      },
+      "compositionMSE": {
+        "mean": 0.5748192098133436,
+        "sd": 0.09135988613730393
+      },
+      "full": {
+        "mean": 0,
+        "sd": 0
+      }
+    }
+  ],
+  "runs": [
+    {
+      "version": 1,
+      "scenario": "stable",
+      "seed": 11,
+      "samples": 2048,
+      "complete": true,
+      "budget": {
+        "numericSlots": 28,
+        "payloadBytes": 224,
+        "excludes": "JS overhead, global bookkeeping, configuration, scratch and evaluation data"
+      },
+      "metrics": {
+        "protected": {
+          "onlineMSE": 0.005532719231423673,
+          "acquisitionMSE": 0.000013117994216946499,
+          "finalMSE": 0.000013117994216946499,
+          "oldMSE": 0.000013117994216946499,
+          "forgetting": 0,
+          "compositionMSE": 0.000021094542761813573,
+          "error": 11.331008985955682,
+          "full": 0,
+          "writes": 512,
+          "reads": 1536,
+          "usedRecords": 4
+        },
+        "adaptive": {
+          "onlineMSE": 0.005529377380906465,
+          "acquisitionMSE": 0.000005379522873487055,
+          "finalMSE": 0.000008276916241739972,
+          "oldMSE": 0.000008276916241739972,
+          "forgetting": 0.0000028973933682529152,
+          "compositionMSE": 0.000016989076438921195,
+          "error": 11.32416487609644,
+          "full": 0,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": 4
+        },
+        "shared": {
+          "onlineMSE": 0.008034780886444055,
+          "acquisitionMSE": 0.0025451719996898775,
+          "finalMSE": 0.021366796921077142,
+          "oldMSE": 0.021366796921077142,
+          "forgetting": 0.01882162492138726,
+          "compositionMSE": 0.04614810304206623,
+          "error": 16.455231255437425,
+          "full": 0,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": null
+        }
+      },
+      "history": [
+        {
+          "t": 256,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.000009461227806108571,
+            "adaptive": 0.000001281412735236763,
+            "shared": 0.0018333472149157785
+          }
+        },
+        {
+          "t": 512,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.000013871245643024759,
+            "adaptive": 0.0000018421921473909736,
+            "shared": 0.03885854634272851
+          }
+        },
+        {
+          "t": 768,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.000014704590336208614,
+            "adaptive": 0.000002015664064192788,
+            "shared": 0.018534128117255896
+          }
+        },
+        {
+          "t": 1024,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.000013117994216946499,
+            "adaptive": 0.000005379522873487055,
+            "shared": 0.055562188195458266
+          }
+        },
+        {
+          "t": 1280,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.000013117994216946499,
+            "adaptive": 0.0000032719056582013753,
+            "shared": 0.05718755949280783
+          }
+        },
+        {
+          "t": 1536,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.000013117994216946499,
+            "adaptive": 0.000006616316023725138,
+            "shared": 0.03787967255132671
+          }
+        },
+        {
+          "t": 1792,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.000013117994216946499,
+            "adaptive": 0.000007360507734503124,
+            "shared": 0.022413170891752036
+          }
+        },
+        {
+          "t": 2048,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.000013117994216946499,
+            "adaptive": 0.000008276916241739972,
+            "shared": 0.021366796921077142
+          }
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "scenario": "stable",
+      "seed": 22,
+      "samples": 2048,
+      "complete": true,
+      "budget": {
+        "numericSlots": 28,
+        "payloadBytes": 224,
+        "excludes": "JS overhead, global bookkeeping, configuration, scratch and evaluation data"
+      },
+      "metrics": {
+        "protected": {
+          "onlineMSE": 0.005759933272311682,
+          "acquisitionMSE": 0.000011153395428496023,
+          "finalMSE": 0.000011153395428496023,
+          "oldMSE": 0.000011153395428496023,
+          "forgetting": 0,
+          "compositionMSE": 0.000027734476052369775,
+          "error": 11.796343341694325,
+          "full": 0,
+          "writes": 512,
+          "reads": 1536,
+          "usedRecords": 4
+        },
+        "adaptive": {
+          "onlineMSE": 0.005758973232640018,
+          "acquisitionMSE": 0.000009987864957284205,
+          "finalMSE": 0.000008830303547831561,
+          "oldMSE": 0.000008830303547831561,
+          "forgetting": -0.0000011575614094526432,
+          "compositionMSE": 0.000018810862702329683,
+          "error": 11.794377180446757,
+          "full": 0,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": 4
+        },
+        "shared": {
+          "onlineMSE": 0.00872421032989174,
+          "acquisitionMSE": 0.002938357930446674,
+          "finalMSE": 0.0071586811805089455,
+          "oldMSE": 0.0071586811805089455,
+          "forgetting": 0.004220323250062272,
+          "compositionMSE": 0.018146746125296785,
+          "error": 17.867182755618284,
+          "full": 0,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": null
+        }
+      },
+      "history": [
+        {
+          "t": 256,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.000013864849549118192,
+            "adaptive": 0.0000056701791341824054,
+            "shared": 0.001977393794664258
+          }
+        },
+        {
+          "t": 512,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.000013485818096585745,
+            "adaptive": 0.000007219184412649844,
+            "shared": 0.0085939533286761
+          }
+        },
+        {
+          "t": 768,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.000010395210147431762,
+            "adaptive": 0.000011892462742416766,
+            "shared": 0.03476659289486797
+          }
+        },
+        {
+          "t": 1024,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.000011153395428496023,
+            "adaptive": 0.000009987864957284205,
+            "shared": 0.019746209289514413
+          }
+        },
+        {
+          "t": 1280,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.000011153395428496023,
+            "adaptive": 0.00001092147466493476,
+            "shared": 0.022025382753281655
+          }
+        },
+        {
+          "t": 1536,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.000011153395428496023,
+            "adaptive": 0.000008178791694815828,
+            "shared": 0.018907876478533314
+          }
+        },
+        {
+          "t": 1792,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.000011153395428496023,
+            "adaptive": 0.00000863717415524595,
+            "shared": 0.01902603183404447
+          }
+        },
+        {
+          "t": 2048,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.000011153395428496023,
+            "adaptive": 0.000008830303547831561,
+            "shared": 0.0071586811805089455
+          }
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "scenario": "stable",
+      "seed": 33,
+      "samples": 2048,
+      "complete": true,
+      "budget": {
+        "numericSlots": 28,
+        "payloadBytes": 224,
+        "excludes": "JS overhead, global bookkeeping, configuration, scratch and evaluation data"
+      },
+      "metrics": {
+        "protected": {
+          "onlineMSE": 0.005732552595993353,
+          "acquisitionMSE": 0.000011836838490968369,
+          "finalMSE": 0.000011836838490968369,
+          "oldMSE": 0.000011836838490968369,
+          "forgetting": 0,
+          "compositionMSE": 0.000026033429043049196,
+          "error": 11.740267716594387,
+          "full": 0,
+          "writes": 512,
+          "reads": 1536,
+          "usedRecords": 4
+        },
+        "adaptive": {
+          "onlineMSE": 0.005732120311075937,
+          "acquisitionMSE": 0.000007288852168702622,
+          "finalMSE": 0.000007112354659611768,
+          "oldMSE": 0.000007112354659611768,
+          "forgetting": -1.7649750909085518e-7,
+          "compositionMSE": 0.000017973615214798097,
+          "error": 11.739382397083519,
+          "full": 0,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": 4
+        },
+        "shared": {
+          "onlineMSE": 0.008489617584266175,
+          "acquisitionMSE": 0.0027826923542034233,
+          "finalMSE": 0.0194531193417411,
+          "oldMSE": 0.0194531193417411,
+          "forgetting": 0.016670426987537672,
+          "compositionMSE": 0.042428871602871655,
+          "error": 17.386736812577126,
+          "full": 0,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": null
+        }
+      },
+      "history": [
+        {
+          "t": 256,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.000009791561043715809,
+            "adaptive": 0.000009081030003687431,
+            "shared": 0.0017838419845725203
+          }
+        },
+        {
+          "t": 512,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.000010330707167922696,
+            "adaptive": 0.000011215176732425713,
+            "shared": 0.013917798073257092
+          }
+        },
+        {
+          "t": 768,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.000013028980354306432,
+            "adaptive": 0.000009166463249857579,
+            "shared": 0.02201356018272183
+          }
+        },
+        {
+          "t": 1024,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.000011836838490968369,
+            "adaptive": 0.000007288852168702622,
+            "shared": 0.05695375947012582
+          }
+        },
+        {
+          "t": 1280,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.000011836838490968369,
+            "adaptive": 0.000007974100820129211,
+            "shared": 0.061103130158737064
+          }
+        },
+        {
+          "t": 1536,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.000011836838490968369,
+            "adaptive": 0.000008338842001747045,
+            "shared": 0.04439040125499826
+          }
+        },
+        {
+          "t": 1792,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.000011836838490968369,
+            "adaptive": 0.000005505806919512271,
+            "shared": 0.020690694717899468
+          }
+        },
+        {
+          "t": 2048,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.000011836838490968369,
+            "adaptive": 0.000007112354659611768,
+            "shared": 0.0194531193417411
+          }
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "scenario": "stable",
+      "seed": 44,
+      "samples": 2048,
+      "complete": true,
+      "budget": {
+        "numericSlots": 28,
+        "payloadBytes": 224,
+        "excludes": "JS overhead, global bookkeeping, configuration, scratch and evaluation data"
+      },
+      "metrics": {
+        "protected": {
+          "onlineMSE": 0.005094068708929887,
+          "acquisitionMSE": 0.000011276309820923806,
+          "finalMSE": 0.000011276309820923806,
+          "oldMSE": 0.000011276309820923806,
+          "forgetting": 0,
+          "compositionMSE": 0.0000233408996444366,
+          "error": 10.432652715888409,
+          "full": 0,
+          "writes": 512,
+          "reads": 1536,
+          "usedRecords": 4
+        },
+        "adaptive": {
+          "onlineMSE": 0.005095592182200996,
+          "acquisitionMSE": 0.000008185960680799409,
+          "finalMSE": 0.0000075081038995255755,
+          "oldMSE": 0.0000075081038995255755,
+          "forgetting": -6.778567812738338e-7,
+          "compositionMSE": 0.00001621375035718214,
+          "error": 10.43577278914764,
+          "full": 0,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": 4
+        },
+        "shared": {
+          "onlineMSE": 0.007902973043379698,
+          "acquisitionMSE": 0.002512145167276435,
+          "finalMSE": 0.018924920790111252,
+          "oldMSE": 0.018924920790111252,
+          "forgetting": 0.016412775622834816,
+          "compositionMSE": 0.042746490905983994,
+          "error": 16.18528879284162,
+          "full": 0,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": null
+        }
+      },
+      "history": [
+        {
+          "t": 256,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.000006722748938920313,
+            "adaptive": 0.000013524200217405333,
+            "shared": 0.0018910519077616206
+          }
+        },
+        {
+          "t": 512,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.000010163077038695243,
+            "adaptive": 0.000008523759567675063,
+            "shared": 0.039731321030698125
+          }
+        },
+        {
+          "t": 768,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.000010222062583325693,
+            "adaptive": 0.000008331789557976624,
+            "shared": 0.015799708554699293
+          }
+        },
+        {
+          "t": 1024,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.000011276309820923806,
+            "adaptive": 0.000008185960680799409,
+            "shared": 0.05000872082038417
+          }
+        },
+        {
+          "t": 1280,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.000011276309820923806,
+            "adaptive": 0.000007140444121682299,
+            "shared": 0.05418077637489212
+          }
+        },
+        {
+          "t": 1536,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.000011276309820923806,
+            "adaptive": 0.00000916534885665687,
+            "shared": 0.03285101810128187
+          }
+        },
+        {
+          "t": 1792,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.000011276309820923806,
+            "adaptive": 0.000009245481845880713,
+            "shared": 0.020332832578832637
+          }
+        },
+        {
+          "t": 2048,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.000011276309820923806,
+            "adaptive": 0.0000075081038995255755,
+            "shared": 0.018924920790111252
+          }
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "scenario": "stable",
+      "seed": 55,
+      "samples": 2048,
+      "complete": true,
+      "budget": {
+        "numericSlots": 28,
+        "payloadBytes": 224,
+        "excludes": "JS overhead, global bookkeeping, configuration, scratch and evaluation data"
+      },
+      "metrics": {
+        "protected": {
+          "onlineMSE": 0.006080706036115962,
+          "acquisitionMSE": 0.000018766406041633198,
+          "finalMSE": 0.000018766406041633198,
+          "oldMSE": 0.000018766406041633198,
+          "forgetting": 0,
+          "compositionMSE": 0.00003898345803792575,
+          "error": 12.45328596196549,
+          "full": 0,
+          "writes": 512,
+          "reads": 1536,
+          "usedRecords": 4
+        },
+        "adaptive": {
+          "onlineMSE": 0.00607401872502769,
+          "acquisitionMSE": 0.0000058977640051608485,
+          "finalMSE": 0.000014807692541576133,
+          "oldMSE": 0.000014807692541576133,
+          "forgetting": 0.000008909928536415282,
+          "compositionMSE": 0.00003092622132592097,
+          "error": 12.43959034885671,
+          "full": 0,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": 4
+        },
+        "shared": {
+          "onlineMSE": 0.008869702292460046,
+          "acquisitionMSE": 0.002370729995264277,
+          "finalMSE": 0.017725225129076348,
+          "oldMSE": 0.017725225129076348,
+          "forgetting": 0.015354495133812068,
+          "compositionMSE": 0.04113087597090314,
+          "error": 18.165150294958174,
+          "full": 0,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": null
+        }
+      },
+      "history": [
+        {
+          "t": 256,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.000028527870274826643,
+            "adaptive": 0.000007085414934199282,
+            "shared": 0.0017754892746860568
+          }
+        },
+        {
+          "t": 512,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.00002242812038291943,
+            "adaptive": 0.000005122484951010022,
+            "shared": 0.03954023983300342
+          }
+        },
+        {
+          "t": 768,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.0000179779281692443,
+            "adaptive": 0.0000072535314671797954,
+            "shared": 0.04577542711821898
+          }
+        },
+        {
+          "t": 1024,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.000018766406041633198,
+            "adaptive": 0.0000058977640051608485,
+            "shared": 0.046260729415787925
+          }
+        },
+        {
+          "t": 1280,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.000018766406041633198,
+            "adaptive": 0.000012450669132914829,
+            "shared": 0.050605470346087
+          }
+        },
+        {
+          "t": 1536,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.000018766406041633198,
+            "adaptive": 0.000009912091280579028,
+            "shared": 0.04164859144544802
+          }
+        },
+        {
+          "t": 1792,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.000018766406041633198,
+            "adaptive": 0.000010499530398421405,
+            "shared": 0.024071374596797902
+          }
+        },
+        {
+          "t": 2048,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.000018766406041633198,
+            "adaptive": 0.000014807692541576133,
+            "shared": 0.017725225129076348
+          }
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "scenario": "drift",
+      "seed": 11,
+      "samples": 2048,
+      "complete": true,
+      "budget": {
+        "numericSlots": 28,
+        "payloadBytes": 224,
+        "excludes": "JS overhead, global bookkeeping, configuration, scratch and evaluation data"
+      },
+      "metrics": {
+        "protected": {
+          "onlineMSE": 0.09079744146742362,
+          "acquisitionMSE": 0.000013117994216946499,
+          "finalMSE": 0.16438758867895323,
+          "oldMSE": 0.000013117994216946499,
+          "forgetting": 0,
+          "compositionMSE": 0.32871934951464216,
+          "error": 185.95316012528357,
+          "full": 0,
+          "writes": 512,
+          "reads": 1536,
+          "usedRecords": 4
+        },
+        "adaptive": {
+          "onlineMSE": 0.008365980443791695,
+          "acquisitionMSE": 0.000005379522873487055,
+          "finalMSE": 0.000008276903321799348,
+          "oldMSE": 0.16578263174965627,
+          "forgetting": 0.1657772522267828,
+          "compositionMSE": 0.00001677611438178934,
+          "error": 17.13352794888539,
+          "full": 0,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": 4
+        },
+        "shared": {
+          "onlineMSE": 0.009815260630493582,
+          "acquisitionMSE": 0.0025451719996898775,
+          "finalMSE": 0.03486852325043348,
+          "oldMSE": 0.19731569236519386,
+          "forgetting": 0.194770520365504,
+          "compositionMSE": 0.07191945921238657,
+          "error": 20.101653771250856,
+          "full": 0,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": null
+        }
+      },
+      "history": [
+        {
+          "t": 256,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.000009461227806108571,
+            "adaptive": 0.000001281412735236763,
+            "shared": 0.0018333472149157785
+          }
+        },
+        {
+          "t": 512,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.000013871245643024759,
+            "adaptive": 0.0000018421921473909736,
+            "shared": 0.03885854634272851
+          }
+        },
+        {
+          "t": 768,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.000014704590336208614,
+            "adaptive": 0.000002015664064192788,
+            "shared": 0.018534128117255896
+          }
+        },
+        {
+          "t": 1024,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.000013117994216946499,
+            "adaptive": 0.000005379522873487055,
+            "shared": 0.055562188195458266
+          }
+        },
+        {
+          "t": 1280,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.000013117994216946499,
+            "adaptive": 0.0000032719056582013753,
+            "shared": 0.05718755949280783
+          }
+        },
+        {
+          "t": 1536,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.000013117994216946499,
+            "adaptive": 0.000006616316023725138,
+            "shared": 0.03787967255132671
+          }
+        },
+        {
+          "t": 1792,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.000013117994216946499,
+            "adaptive": 0.000007360507734503124,
+            "shared": 0.022413170891752036
+          }
+        },
+        {
+          "t": 2048,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.000013117994216946499,
+            "adaptive": 0.16578263174965627,
+            "shared": 0.19731569236519386
+          }
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "scenario": "drift",
+      "seed": 22,
+      "samples": 2048,
+      "complete": true,
+      "budget": {
+        "numericSlots": 28,
+        "payloadBytes": 224,
+        "excludes": "JS overhead, global bookkeeping, configuration, scratch and evaluation data"
+      },
+      "metrics": {
+        "protected": {
+          "onlineMSE": 0.08923841583753675,
+          "acquisitionMSE": 0.000011153395428496023,
+          "finalMSE": 0.16615657256539168,
+          "oldMSE": 0.000011153395428496023,
+          "forgetting": 0,
+          "compositionMSE": 0.332045344751391,
+          "error": 182.76027563527526,
+          "full": 0,
+          "writes": 512,
+          "reads": 1536,
+          "usedRecords": 4
+        },
+        "adaptive": {
+          "onlineMSE": 0.008521009152088716,
+          "acquisitionMSE": 0.000009987864957284205,
+          "finalMSE": 0.000008830290728786194,
+          "oldMSE": 0.16609652649264528,
+          "forgetting": 0.166086538627688,
+          "compositionMSE": 0.000023535746644655327,
+          "error": 17.45102674347769,
+          "full": 0,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": 4
+        },
+        "shared": {
+          "onlineMSE": 0.01001778237280847,
+          "acquisitionMSE": 0.002938357930446674,
+          "finalMSE": 0.04159120976534461,
+          "oldMSE": 0.20588136620935754,
+          "forgetting": 0.20294300827891087,
+          "compositionMSE": 0.08856712749211924,
+          "error": 20.516418299511745,
+          "full": 0,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": null
+        }
+      },
+      "history": [
+        {
+          "t": 256,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.000013864849549118192,
+            "adaptive": 0.0000056701791341824054,
+            "shared": 0.001977393794664258
+          }
+        },
+        {
+          "t": 512,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.000013485818096585745,
+            "adaptive": 0.000007219184412649844,
+            "shared": 0.0085939533286761
+          }
+        },
+        {
+          "t": 768,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.000010395210147431762,
+            "adaptive": 0.000011892462742416766,
+            "shared": 0.03476659289486797
+          }
+        },
+        {
+          "t": 1024,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.000011153395428496023,
+            "adaptive": 0.000009987864957284205,
+            "shared": 0.019746209289514413
+          }
+        },
+        {
+          "t": 1280,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.000011153395428496023,
+            "adaptive": 0.00001092147466493476,
+            "shared": 0.022025382753281655
+          }
+        },
+        {
+          "t": 1536,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.000011153395428496023,
+            "adaptive": 0.000008178791694815828,
+            "shared": 0.018907876478533314
+          }
+        },
+        {
+          "t": 1792,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.000011153395428496023,
+            "adaptive": 0.00000863717415524595,
+            "shared": 0.01902603183404447
+          }
+        },
+        {
+          "t": 2048,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.000011153395428496023,
+            "adaptive": 0.16609652649264528,
+            "shared": 0.20588136620935754
+          }
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "scenario": "drift",
+      "seed": 33,
+      "samples": 2048,
+      "complete": true,
+      "budget": {
+        "numericSlots": 28,
+        "payloadBytes": 224,
+        "excludes": "JS overhead, global bookkeeping, configuration, scratch and evaluation data"
+      },
+      "metrics": {
+        "protected": {
+          "onlineMSE": 0.08866564928843679,
+          "acquisitionMSE": 0.000011836838490968369,
+          "finalMSE": 0.164554383472985,
+          "oldMSE": 0.000011836838490968369,
+          "forgetting": 0,
+          "compositionMSE": 0.3301332963350134,
+          "error": 181.58724974271854,
+          "full": 0,
+          "writes": 512,
+          "reads": 1536,
+          "usedRecords": 4
+        },
+        "adaptive": {
+          "onlineMSE": 0.00821135283259447,
+          "acquisitionMSE": 0.000007288852168702622,
+          "finalMSE": 0.000007112386969943355,
+          "oldMSE": 0.16567605876775007,
+          "forgetting": 0.1656687699155814,
+          "compositionMSE": 0.000011459449513546074,
+          "error": 16.816850601153476,
+          "full": 0,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": 4
+        },
+        "shared": {
+          "onlineMSE": 0.009803553752640642,
+          "acquisitionMSE": 0.0027826923542034233,
+          "finalMSE": 0.04752094397268376,
+          "oldMSE": 0.20865672384921854,
+          "forgetting": 0.2058740314950151,
+          "compositionMSE": 0.0937784976572708,
+          "error": 20.077678085408035,
+          "full": 0,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": null
+        }
+      },
+      "history": [
+        {
+          "t": 256,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.000009791561043715809,
+            "adaptive": 0.000009081030003687431,
+            "shared": 0.0017838419845725203
+          }
+        },
+        {
+          "t": 512,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.000010330707167922696,
+            "adaptive": 0.000011215176732425713,
+            "shared": 0.013917798073257092
+          }
+        },
+        {
+          "t": 768,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.000013028980354306432,
+            "adaptive": 0.000009166463249857579,
+            "shared": 0.02201356018272183
+          }
+        },
+        {
+          "t": 1024,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.000011836838490968369,
+            "adaptive": 0.000007288852168702622,
+            "shared": 0.05695375947012582
+          }
+        },
+        {
+          "t": 1280,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.000011836838490968369,
+            "adaptive": 0.000007974100820129211,
+            "shared": 0.061103130158737064
+          }
+        },
+        {
+          "t": 1536,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.000011836838490968369,
+            "adaptive": 0.000008338842001747045,
+            "shared": 0.04439040125499826
+          }
+        },
+        {
+          "t": 1792,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.000011836838490968369,
+            "adaptive": 0.000005505806919512271,
+            "shared": 0.020690694717899468
+          }
+        },
+        {
+          "t": 2048,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.000011836838490968369,
+            "adaptive": 0.16567605876775007,
+            "shared": 0.20865672384921854
+          }
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "scenario": "drift",
+      "seed": 44,
+      "samples": 2048,
+      "complete": true,
+      "budget": {
+        "numericSlots": 28,
+        "payloadBytes": 224,
+        "excludes": "JS overhead, global bookkeeping, configuration, scratch and evaluation data"
+      },
+      "metrics": {
+        "protected": {
+          "onlineMSE": 0.08630901023019397,
+          "acquisitionMSE": 0.000011276309820923806,
+          "finalMSE": 0.16520604295662744,
+          "oldMSE": 0.000011276309820923806,
+          "forgetting": 0,
+          "compositionMSE": 0.3305714295870584,
+          "error": 176.76085295143724,
+          "full": 0,
+          "writes": 512,
+          "reads": 1536,
+          "usedRecords": 4
+        },
+        "adaptive": {
+          "onlineMSE": 0.007442270597138206,
+          "acquisitionMSE": 0.000008185960680799409,
+          "finalMSE": 0.000007508090398538256,
+          "oldMSE": 0.1659993930652166,
+          "forgetting": 0.1659912071045358,
+          "compositionMSE": 0.000017319739063738995,
+          "error": 15.241770182939046,
+          "full": 0,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": 4
+        },
+        "shared": {
+          "onlineMSE": 0.009075351663969859,
+          "acquisitionMSE": 0.002512145167276435,
+          "finalMSE": 0.042522340979835656,
+          "oldMSE": 0.20803529470173035,
+          "forgetting": 0.20552314953445391,
+          "compositionMSE": 0.08517256581857177,
+          "error": 18.58632020781027,
+          "full": 0,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": null
+        }
+      },
+      "history": [
+        {
+          "t": 256,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.000006722748938920313,
+            "adaptive": 0.000013524200217405333,
+            "shared": 0.0018910519077616206
+          }
+        },
+        {
+          "t": 512,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.000010163077038695243,
+            "adaptive": 0.000008523759567675063,
+            "shared": 0.039731321030698125
+          }
+        },
+        {
+          "t": 768,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.000010222062583325693,
+            "adaptive": 0.000008331789557976624,
+            "shared": 0.015799708554699293
+          }
+        },
+        {
+          "t": 1024,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.000011276309820923806,
+            "adaptive": 0.000008185960680799409,
+            "shared": 0.05000872082038417
+          }
+        },
+        {
+          "t": 1280,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.000011276309820923806,
+            "adaptive": 0.000007140444121682299,
+            "shared": 0.05418077637489212
+          }
+        },
+        {
+          "t": 1536,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.000011276309820923806,
+            "adaptive": 0.00000916534885665687,
+            "shared": 0.03285101810128187
+          }
+        },
+        {
+          "t": 1792,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.000011276309820923806,
+            "adaptive": 0.000009245481845880713,
+            "shared": 0.020332832578832637
+          }
+        },
+        {
+          "t": 2048,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.000011276309820923806,
+            "adaptive": 0.1659993930652166,
+            "shared": 0.20803529470173035
+          }
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "scenario": "drift",
+      "seed": 55,
+      "samples": 2048,
+      "complete": true,
+      "budget": {
+        "numericSlots": 28,
+        "payloadBytes": 224,
+        "excludes": "JS overhead, global bookkeeping, configuration, scratch and evaluation data"
+      },
+      "metrics": {
+        "protected": {
+          "onlineMSE": 0.08822174399841702,
+          "acquisitionMSE": 0.000018766406041633198,
+          "finalMSE": 0.16334758389604362,
+          "oldMSE": 0.000018766406041633198,
+          "forgetting": 0,
+          "compositionMSE": 0.327359741465028,
+          "error": 180.67813170875806,
+          "full": 0,
+          "writes": 512,
+          "reads": 1536,
+          "usedRecords": 4
+        },
+        "adaptive": {
+          "onlineMSE": 0.008891332762698333,
+          "acquisitionMSE": 0.0000058977640051608485,
+          "finalMSE": 0.000014807699651746079,
+          "oldMSE": 0.16453398880478745,
+          "forgetting": 0.16452809104078228,
+          "compositionMSE": 0.000025885374955598553,
+          "error": 18.209449498006187,
+          "full": 0,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": 4
+        },
+        "shared": {
+          "onlineMSE": 0.010386907386577486,
+          "acquisitionMSE": 0.002370729995264277,
+          "finalMSE": 0.030205618865090468,
+          "oldMSE": 0.18367453949583354,
+          "forgetting": 0.18130380950056926,
+          "compositionMSE": 0.06152211208640504,
+          "error": 21.27238632771069,
+          "full": 0,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": null
+        }
+      },
+      "history": [
+        {
+          "t": 256,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.000028527870274826643,
+            "adaptive": 0.000007085414934199282,
+            "shared": 0.0017754892746860568
+          }
+        },
+        {
+          "t": 512,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.00002242812038291943,
+            "adaptive": 0.000005122484951010022,
+            "shared": 0.03954023983300342
+          }
+        },
+        {
+          "t": 768,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.0000179779281692443,
+            "adaptive": 0.0000072535314671797954,
+            "shared": 0.04577542711821898
+          }
+        },
+        {
+          "t": 1024,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.000018766406041633198,
+            "adaptive": 0.0000058977640051608485,
+            "shared": 0.046260729415787925
+          }
+        },
+        {
+          "t": 1280,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.000018766406041633198,
+            "adaptive": 0.000012450669132914829,
+            "shared": 0.050605470346087
+          }
+        },
+        {
+          "t": 1536,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.000018766406041633198,
+            "adaptive": 0.000009912091280579028,
+            "shared": 0.04164859144544802
+          }
+        },
+        {
+          "t": 1792,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.000018766406041633198,
+            "adaptive": 0.000010499530398421405,
+            "shared": 0.024071374596797902
+          }
+        },
+        {
+          "t": 2048,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.000018766406041633198,
+            "adaptive": 0.16453398880478745,
+            "shared": 0.18367453949583354
+          }
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "scenario": "ambiguous",
+      "seed": 11,
+      "samples": 2048,
+      "complete": true,
+      "budget": {
+        "numericSlots": 28,
+        "payloadBytes": 224,
+        "excludes": "JS overhead, global bookkeeping, configuration, scratch and evaluation data"
+      },
+      "metrics": {
+        "protected": {
+          "onlineMSE": 0.659895658381767,
+          "acquisitionMSE": 0.6589290131471895,
+          "finalMSE": 0.6589290131471895,
+          "oldMSE": 0.6589290131471895,
+          "forgetting": 0,
+          "compositionMSE": 0.6565696211255713,
+          "error": 1351.4663083658588,
+          "full": 0,
+          "writes": 128,
+          "reads": 1920,
+          "usedRecords": 1
+        },
+        "adaptive": {
+          "onlineMSE": 0.02409717832700081,
+          "acquisitionMSE": 0.000005379521005377405,
+          "finalMSE": 0.6603556284116286,
+          "oldMSE": 0.6603556284116286,
+          "forgetting": 0.6603502488906232,
+          "compositionMSE": 0.6594091309509603,
+          "error": 49.351021213697656,
+          "full": 0,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": 1
+        },
+        "shared": {
+          "onlineMSE": 0.02061092053273871,
+          "acquisitionMSE": 0.00212580034456438,
+          "finalMSE": 0.6546631302135828,
+          "oldMSE": 0.6546631302135828,
+          "forgetting": 0.6525373298690185,
+          "compositionMSE": 0.655661790375894,
+          "error": 42.211165251048875,
+          "full": 0,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": null
+        }
+      },
+      "history": [
+        {
+          "t": 256,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.000009461227806108571,
+            "adaptive": 0.000001281412735236763,
+            "shared": 0.0018333472149157785
+          }
+        },
+        {
+          "t": 512,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.33018007177771674,
+            "adaptive": 0.33063694529737303,
+            "shared": 0.3234724043271831
+          }
+        },
+        {
+          "t": 768,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.4392891625073949,
+            "adaptive": 0.6613810942778376,
+            "shared": 0.6475267583941924
+          }
+        },
+        {
+          "t": 1024,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.6589290131471895,
+            "adaptive": 0.6636300458545035,
+            "shared": 0.6412466891688151
+          }
+        },
+        {
+          "t": 1280,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.6589290131471895,
+            "adaptive": 0.6591516301977496,
+            "shared": 0.6616893380945156
+          }
+        },
+        {
+          "t": 1536,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.6589290131471895,
+            "adaptive": 0.6616054124212167,
+            "shared": 0.6597733678241624
+          }
+        },
+        {
+          "t": 1792,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.6589290131471895,
+            "adaptive": 0.6613197022585505,
+            "shared": 0.6827451526680175
+          }
+        },
+        {
+          "t": 2048,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.6589290131471895,
+            "adaptive": 0.6603556284116286,
+            "shared": 0.6546631302135828
+          }
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "scenario": "ambiguous",
+      "seed": 22,
+      "samples": 2048,
+      "complete": true,
+      "budget": {
+        "numericSlots": 28,
+        "payloadBytes": 224,
+        "excludes": "JS overhead, global bookkeeping, configuration, scratch and evaluation data"
+      },
+      "metrics": {
+        "protected": {
+          "onlineMSE": 0.6694508564322222,
+          "acquisitionMSE": 0.6616941315585312,
+          "finalMSE": 0.6616941315585312,
+          "oldMSE": 0.6616941315585312,
+          "forgetting": 0,
+          "compositionMSE": 0.6620789199156923,
+          "error": 1371.0353539731911,
+          "full": 0,
+          "writes": 128,
+          "reads": 1920,
+          "usedRecords": 1
+        },
+        "adaptive": {
+          "onlineMSE": 0.03012634735884952,
+          "acquisitionMSE": 0.000009987799155646841,
+          "finalMSE": 0.6607282638882787,
+          "oldMSE": 0.6607282638882787,
+          "forgetting": 0.660718276089123,
+          "compositionMSE": 0.6600809472118182,
+          "error": 61.69875939092382,
+          "full": 0,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": 1
+        },
+        "shared": {
+          "onlineMSE": 0.02529639776294228,
+          "acquisitionMSE": 0.0021275968994815533,
+          "finalMSE": 0.6745553740785876,
+          "oldMSE": 0.6745553740785876,
+          "forgetting": 0.6724277771791061,
+          "compositionMSE": 0.6963412857948421,
+          "error": 51.80702261850579,
+          "full": 0,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": null
+        }
+      },
+      "history": [
+        {
+          "t": 256,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.000013864849549118192,
+            "adaptive": 0.0000056701791341824054,
+            "shared": 0.002025039478949769
+          }
+        },
+        {
+          "t": 512,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.6616941315585313,
+            "adaptive": 0.6586016816770579,
+            "shared": 0.6583157483157924
+          }
+        },
+        {
+          "t": 768,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.6607269949015743,
+            "adaptive": 0.4391771868732133,
+            "shared": 0.43588098980008344
+          }
+        },
+        {
+          "t": 1024,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.6616941315585312,
+            "adaptive": 0.6615692677922137,
+            "shared": 0.6756338224028924
+          }
+        },
+        {
+          "t": 1280,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.6616941315585312,
+            "adaptive": 0.6628030812483235,
+            "shared": 0.6631398474767712
+          }
+        },
+        {
+          "t": 1536,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.6616941315585312,
+            "adaptive": 0.6638005528760484,
+            "shared": 0.6585910752503806
+          }
+        },
+        {
+          "t": 1792,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.6616941315585312,
+            "adaptive": 0.6619151567257198,
+            "shared": 0.6448334645393633
+          }
+        },
+        {
+          "t": 2048,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.6616941315585312,
+            "adaptive": 0.6607282638882787,
+            "shared": 0.6745553740785876
+          }
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "scenario": "ambiguous",
+      "seed": 33,
+      "samples": 2048,
+      "complete": true,
+      "budget": {
+        "numericSlots": 28,
+        "payloadBytes": 224,
+        "excludes": "JS overhead, global bookkeeping, configuration, scratch and evaluation data"
+      },
+      "metrics": {
+        "protected": {
+          "onlineMSE": 0.6629664581993562,
+          "acquisitionMSE": 0.6600106680139801,
+          "finalMSE": 0.6600106680139801,
+          "oldMSE": 0.6600106680139801,
+          "forgetting": 0,
+          "compositionMSE": 0.6587302372915254,
+          "error": 1357.7553063922815,
+          "full": 0,
+          "writes": 128,
+          "reads": 1920,
+          "usedRecords": 1
+        },
+        "adaptive": {
+          "onlineMSE": 0.023195519636980924,
+          "acquisitionMSE": 0.000007288835060246902,
+          "finalMSE": 0.6617217524103938,
+          "oldMSE": 0.6617217524103938,
+          "forgetting": 0.6617144635753336,
+          "compositionMSE": 0.6621764889655894,
+          "error": 47.50442421653693,
+          "full": 0,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": 1
+        },
+        "shared": {
+          "onlineMSE": 0.019728608371946656,
+          "acquisitionMSE": 0.0020265983304360996,
+          "finalMSE": 0.6593420454907033,
+          "oldMSE": 0.6593420454907033,
+          "forgetting": 0.6573154471602671,
+          "compositionMSE": 0.6656747239603021,
+          "error": 40.40418994574675,
+          "full": 0,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": null
+        }
+      },
+      "history": [
+        {
+          "t": 256,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.000009791561043715809,
+            "adaptive": 0.000009081030003687431,
+            "shared": 0.0017838419845725203
+          }
+        },
+        {
+          "t": 512,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.32909488483003185,
+            "adaptive": 0.33051955718504583,
+            "shared": 0.3231711488758176
+          }
+        },
+        {
+          "t": 768,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.44001037586300135,
+            "adaptive": 0.6590510180180845,
+            "shared": 0.6458211080991693
+          }
+        },
+        {
+          "t": 1024,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.6600106680139801,
+            "adaptive": 0.6610633201717802,
+            "shared": 0.6685095490552309
+          }
+        },
+        {
+          "t": 1280,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.6600106680139801,
+            "adaptive": 0.6593437315954936,
+            "shared": 0.6538060100741002
+          }
+        },
+        {
+          "t": 1536,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.6600106680139801,
+            "adaptive": 0.6593515504025189,
+            "shared": 0.6505957803369166
+          }
+        },
+        {
+          "t": 1792,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.6600106680139801,
+            "adaptive": 0.6614825109550562,
+            "shared": 0.6617408937139061
+          }
+        },
+        {
+          "t": 2048,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.6600106680139801,
+            "adaptive": 0.6617217524103938,
+            "shared": 0.6593420454907033
+          }
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "scenario": "ambiguous",
+      "seed": 44,
+      "samples": 2048,
+      "complete": true,
+      "budget": {
+        "numericSlots": 28,
+        "payloadBytes": 224,
+        "excludes": "JS overhead, global bookkeeping, configuration, scratch and evaluation data"
+      },
+      "metrics": {
+        "protected": {
+          "onlineMSE": 0.6764051023537954,
+          "acquisitionMSE": 0.6617302565960683,
+          "finalMSE": 0.6617302565960683,
+          "oldMSE": 0.6617302565960683,
+          "forgetting": 0,
+          "compositionMSE": 0.6621216301126341,
+          "error": 1385.277649620573,
+          "full": 0,
+          "writes": 128,
+          "reads": 1920,
+          "usedRecords": 1
+        },
+        "adaptive": {
+          "onlineMSE": 0.02172793432863765,
+          "acquisitionMSE": 0.000008185942001310493,
+          "finalMSE": 0.6613372693447468,
+          "oldMSE": 0.6613372693447468,
+          "forgetting": 0.6613290834027454,
+          "compositionMSE": 0.6613508214736725,
+          "error": 44.498809505049906,
+          "full": 0,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": 1
+        },
+        "shared": {
+          "onlineMSE": 0.019037949409067778,
+          "acquisitionMSE": 0.002004504498356158,
+          "finalMSE": 0.6559983760524988,
+          "oldMSE": 0.6559983760524988,
+          "forgetting": 0.6539938715541427,
+          "compositionMSE": 0.6578379920975641,
+          "error": 38.98972038977081,
+          "full": 0,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": null
+        }
+      },
+      "history": [
+        {
+          "t": 256,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.000006722748938920313,
+            "adaptive": 0.000013524200217405333,
+            "shared": 0.0016999065435560935
+          }
+        },
+        {
+          "t": 512,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.3303962560425519,
+            "adaptive": 0.3298043610135862,
+            "shared": 0.3197467251686497
+          }
+        },
+        {
+          "t": 768,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.44115574531369184,
+            "adaptive": 0.6625390916121622,
+            "shared": 0.6522304733612468
+          }
+        },
+        {
+          "t": 1024,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.6617302565960683,
+            "adaptive": 0.6632924566084345,
+            "shared": 0.6671177532479131
+          }
+        },
+        {
+          "t": 1280,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.6617302565960683,
+            "adaptive": 0.6613266910589781,
+            "shared": 0.6521611201026293
+          }
+        },
+        {
+          "t": 1536,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.6617302565960683,
+            "adaptive": 0.6598118684151759,
+            "shared": 0.6481375959268216
+          }
+        },
+        {
+          "t": 1792,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.6617302565960683,
+            "adaptive": 0.6615153596087255,
+            "shared": 0.6707176386562462
+          }
+        },
+        {
+          "t": 2048,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.6617302565960683,
+            "adaptive": 0.6613372693447468,
+            "shared": 0.6559983760524988
+          }
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "scenario": "ambiguous",
+      "seed": 55,
+      "samples": 2048,
+      "complete": true,
+      "budget": {
+        "numericSlots": 28,
+        "payloadBytes": 224,
+        "excludes": "JS overhead, global bookkeeping, configuration, scratch and evaluation data"
+      },
+      "metrics": {
+        "protected": {
+          "onlineMSE": 0.6687787575318261,
+          "acquisitionMSE": 0.6564430262207805,
+          "finalMSE": 0.6564430262207805,
+          "oldMSE": 0.6564430262207805,
+          "forgetting": 0,
+          "compositionMSE": 0.6516496997918583,
+          "error": 1369.65889542518,
+          "full": 0,
+          "writes": 128,
+          "reads": 1920,
+          "usedRecords": 1
+        },
+        "adaptive": {
+          "onlineMSE": 0.019344417491672886,
+          "acquisitionMSE": 0.000005897737795530791,
+          "finalMSE": 0.6596086070435542,
+          "oldMSE": 0.6596086070435542,
+          "forgetting": 0.6596027093057586,
+          "compositionMSE": 0.6579201167239244,
+          "error": 39.61736702294607,
+          "full": 0,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": 1
+        },
+        "shared": {
+          "onlineMSE": 0.01745743733111602,
+          "acquisitionMSE": 0.0020885738627837427,
+          "finalMSE": 0.6430981264988642,
+          "oldMSE": 0.6430981264988642,
+          "forgetting": 0.6410095526360805,
+          "compositionMSE": 0.6326476553479365,
+          "error": 35.75283165412561,
+          "full": 0,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": null
+        }
+      },
+      "history": [
+        {
+          "t": 256,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.000028527870274826643,
+            "adaptive": 0.000007085414934199282,
+            "shared": 0.0017754892746860568
+          }
+        },
+        {
+          "t": 512,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.32978539124077666,
+            "adaptive": 0.33003998963484954,
+            "shared": 0.3296788977261281
+          }
+        },
+        {
+          "t": 768,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.6574761023509464,
+            "adaptive": 0.6595378570100424,
+            "shared": 0.6489744739644645
+          }
+        },
+        {
+          "t": 1024,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.6564430262207805,
+            "adaptive": 0.6600509021556438,
+            "shared": 0.6345168951991557
+          }
+        },
+        {
+          "t": 1280,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.6564430262207805,
+            "adaptive": 0.665694961645706,
+            "shared": 0.6479369006155613
+          }
+        },
+        {
+          "t": 1536,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.6564430262207805,
+            "adaptive": 0.6619437238490907,
+            "shared": 0.6582600354578672
+          }
+        },
+        {
+          "t": 1792,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.6564430262207805,
+            "adaptive": 0.6629857387726553,
+            "shared": 0.659693478728398
+          }
+        },
+        {
+          "t": 2048,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.6564430262207805,
+            "adaptive": 0.6596086070435542,
+            "shared": 0.6430981264988642
+          }
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "scenario": "capacity",
+      "seed": 11,
+      "samples": 3072,
+      "complete": true,
+      "budget": {
+        "numericSlots": 28,
+        "payloadBytes": 224,
+        "excludes": "JS overhead, global bookkeeping, configuration, scratch and evaluation data"
+      },
+      "metrics": {
+        "protected": {
+          "onlineMSE": 0.11232555851885832,
+          "acquisitionMSE": 0.11022824665667064,
+          "finalMSE": 0.11022824665667064,
+          "oldMSE": 0.11022824665667064,
+          "forgetting": 0,
+          "compositionMSE": 0.1837137383714419,
+          "error": 345.06411576993276,
+          "full": 1024,
+          "writes": 512,
+          "reads": 1536,
+          "usedRecords": 4
+        },
+        "adaptive": {
+          "onlineMSE": 0.11232597048599045,
+          "acquisitionMSE": 0.11022926425828389,
+          "finalMSE": 0.11022625978459503,
+          "oldMSE": 0.11022625978459503,
+          "forgetting": -0.000003004473688822944,
+          "compositionMSE": 0.18370812701387773,
+          "error": 345.06538133296266,
+          "full": 1024,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": 4
+        },
+        "shared": {
+          "onlineMSE": 0.008100113033254558,
+          "acquisitionMSE": 0.0024686480825524978,
+          "finalMSE": 0.20682014463329776,
+          "oldMSE": 0.20682014463329776,
+          "forgetting": 0.20435149655074525,
+          "compositionMSE": 0.6772605450447905,
+          "error": 24.883547238158002,
+          "full": 0,
+          "writes": 3072,
+          "reads": 0,
+          "usedRecords": null
+        }
+      },
+      "history": [
+        {
+          "t": 256,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.00001768226594888276,
+            "adaptive": 0.000006821833231677216,
+            "shared": 0.0019689414336041093
+          }
+        },
+        {
+          "t": 512,
+          "task": 5,
+          "oldMSE": {
+            "protected": 0.000014691406092434164,
+            "adaptive": 0.00001434600736827264,
+            "shared": 0.0021887063278949424
+          }
+        },
+        {
+          "t": 768,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.000016013914249444194,
+            "adaptive": 0.000015021003355713333,
+            "shared": 0.07555260736330294
+          }
+        },
+        {
+          "t": 1024,
+          "task": 4,
+          "oldMSE": {
+            "protected": 0.000012416433160866324,
+            "adaptive": 0.000013942835580709164,
+            "shared": 0.03166326812001031
+          }
+        },
+        {
+          "t": 1280,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.06614191456726673,
+            "adaptive": 0.0661431356892026,
+            "shared": 0.4008108424776773
+          }
+        },
+        {
+          "t": 1536,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.11022824665667064,
+            "adaptive": 0.11022926425828389,
+            "shared": 0.47591097554318923
+          }
+        },
+        {
+          "t": 1792,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.11022824665667064,
+            "adaptive": 0.11022926425828389,
+            "shared": 0.4334383149459517
+          }
+        },
+        {
+          "t": 2048,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.11022824665667064,
+            "adaptive": 0.11022926425828389,
+            "shared": 0.3682284480666722
+          }
+        },
+        {
+          "t": 2304,
+          "task": 4,
+          "oldMSE": {
+            "protected": 0.11022824665667064,
+            "adaptive": 0.11022934926871931,
+            "shared": 0.19669819870008054
+          }
+        },
+        {
+          "t": 2560,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.11022824665667064,
+            "adaptive": 0.11022727077016713,
+            "shared": 0.16972427321206338
+          }
+        },
+        {
+          "t": 2816,
+          "task": 5,
+          "oldMSE": {
+            "protected": 0.11022824665667064,
+            "adaptive": 0.11022458674289486,
+            "shared": 0.17261839830324985
+          }
+        },
+        {
+          "t": 3072,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.11022824665667064,
+            "adaptive": 0.11022625978459503,
+            "shared": 0.20682014463329776
+          }
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "scenario": "capacity",
+      "seed": 22,
+      "samples": 3072,
+      "complete": true,
+      "budget": {
+        "numericSlots": 28,
+        "payloadBytes": 224,
+        "excludes": "JS overhead, global bookkeeping, configuration, scratch and evaluation data"
+      },
+      "metrics": {
+        "protected": {
+          "onlineMSE": 0.11566884375599228,
+          "acquisitionMSE": 0.11022619581943255,
+          "finalMSE": 0.11022619581943255,
+          "oldMSE": 0.11022619581943255,
+          "forgetting": 0,
+          "compositionMSE": 0.18370963084996317,
+          "error": 355.33468801840826,
+          "full": 1024,
+          "writes": 512,
+          "reads": 1536,
+          "usedRecords": 4
+        },
+        "adaptive": {
+          "onlineMSE": 0.11566955202899248,
+          "acquisitionMSE": 0.11023111902979822,
+          "finalMSE": 0.11022746767697987,
+          "oldMSE": 0.11022746767697987,
+          "forgetting": -0.000003651352818352445,
+          "compositionMSE": 0.18371124897921762,
+          "error": 355.3368638330649,
+          "full": 1024,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": 4
+        },
+        "shared": {
+          "onlineMSE": 0.010041538604296785,
+          "acquisitionMSE": 0.0024574541400613913,
+          "finalMSE": 0.2947351926567145,
+          "oldMSE": 0.2947351926567145,
+          "forgetting": 0.2922777385166531,
+          "compositionMSE": 0.6062728761150189,
+          "error": 30.847606592399725,
+          "full": 0,
+          "writes": 3072,
+          "reads": 0,
+          "usedRecords": null
+        }
+      },
+      "history": [
+        {
+          "t": 256,
+          "task": 4,
+          "oldMSE": {
+            "protected": 0.000008233722482134615,
+            "adaptive": 0.000009615383429101075,
+            "shared": 0.0009077899948918905
+          }
+        },
+        {
+          "t": 512,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.000005349798124130274,
+            "adaptive": 0.000011431477162683676,
+            "shared": 0.09024528162574012
+          }
+        },
+        {
+          "t": 768,
+          "task": 5,
+          "oldMSE": {
+            "protected": 0.000007838981044647161,
+            "adaptive": 0.00001515144255922427,
+            "shared": 0.12721317670348256
+          }
+        },
+        {
+          "t": 1024,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.000009340177303722396,
+            "adaptive": 0.000016724992852223387,
+            "shared": 0.40602880534057495
+          }
+        },
+        {
+          "t": 1280,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.06613945356258102,
+            "adaptive": 0.06614536141501982,
+            "shared": 0.22740289005521816
+          }
+        },
+        {
+          "t": 1536,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.11022619581943255,
+            "adaptive": 0.11023111902979822,
+            "shared": 0.1652943018354638
+          }
+        },
+        {
+          "t": 1792,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.11022619581943255,
+            "adaptive": 0.11023111902979822,
+            "shared": 0.1642920781152142
+          }
+        },
+        {
+          "t": 2048,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.11022619581943255,
+            "adaptive": 0.11023111902979822,
+            "shared": 0.14067087392237695
+          }
+        },
+        {
+          "t": 2304,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.11022619581943255,
+            "adaptive": 0.11023031667507749,
+            "shared": 0.2094671306106688
+          }
+        },
+        {
+          "t": 2560,
+          "task": 5,
+          "oldMSE": {
+            "protected": 0.11022619581943255,
+            "adaptive": 0.11022666855422446,
+            "shared": 0.23852383255585607
+          }
+        },
+        {
+          "t": 2816,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.11022619581943255,
+            "adaptive": 0.11022668881008707,
+            "shared": 0.21275172552512267
+          }
+        },
+        {
+          "t": 3072,
+          "task": 4,
+          "oldMSE": {
+            "protected": 0.11022619581943255,
+            "adaptive": 0.11022746767697987,
+            "shared": 0.2947351926567145
+          }
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "scenario": "capacity",
+      "seed": 33,
+      "samples": 3072,
+      "complete": true,
+      "budget": {
+        "numericSlots": 28,
+        "payloadBytes": 224,
+        "excludes": "JS overhead, global bookkeeping, configuration, scratch and evaluation data"
+      },
+      "metrics": {
+        "protected": {
+          "onlineMSE": 0.11075429815552211,
+          "acquisitionMSE": 0.110231151423979,
+          "finalMSE": 0.110231151423979,
+          "oldMSE": 0.110231151423979,
+          "forgetting": 0,
+          "compositionMSE": 0.1837150054226627,
+          "error": 340.2372039337639,
+          "full": 1024,
+          "writes": 512,
+          "reads": 1536,
+          "usedRecords": 4
+        },
+        "adaptive": {
+          "onlineMSE": 0.11075137420204974,
+          "acquisitionMSE": 0.11022939387536852,
+          "finalMSE": 0.1102246436009952,
+          "oldMSE": 0.1102246436009952,
+          "forgetting": -0.000004750274373341968,
+          "compositionMSE": 0.18370938465417272,
+          "error": 340.2282215486968,
+          "full": 1024,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": 4
+        },
+        "shared": {
+          "onlineMSE": 0.013200678880421306,
+          "acquisitionMSE": 0.0021893391023823723,
+          "finalMSE": 0.24982484451278927,
+          "oldMSE": 0.24982484451278927,
+          "forgetting": 0.2476355054104069,
+          "compositionMSE": 0.46856578283340294,
+          "error": 40.55248552065425,
+          "full": 0,
+          "writes": 3072,
+          "reads": 0,
+          "usedRecords": null
+        }
+      },
+      "history": [
+        {
+          "t": 256,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.000009869356105340563,
+            "adaptive": 0.00003272797515401484,
+            "shared": 0.0018609404091922278
+          }
+        },
+        {
+          "t": 512,
+          "task": 4,
+          "oldMSE": {
+            "protected": 0.00001347998116488109,
+            "adaptive": 0.000022827156972683682,
+            "shared": 0.011291716322430083
+          }
+        },
+        {
+          "t": 768,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.000017665895422241516,
+            "adaptive": 0.000015782608227120378,
+            "shared": 0.1819281893266894
+          }
+        },
+        {
+          "t": 1024,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.000016773584123412437,
+            "adaptive": 0.00001413726120768873,
+            "shared": 0.04008143066173843
+          }
+        },
+        {
+          "t": 1280,
+          "task": 5,
+          "oldMSE": {
+            "protected": 0.06614540028803677,
+            "adaptive": 0.06614329122970419,
+            "shared": 0.18522851777284097
+          }
+        },
+        {
+          "t": 1536,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.110231151423979,
+            "adaptive": 0.11022939387536852,
+            "shared": 0.3548083551568797
+          }
+        },
+        {
+          "t": 1792,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.110231151423979,
+            "adaptive": 0.11022939387536852,
+            "shared": 0.35222537370527124
+          }
+        },
+        {
+          "t": 2048,
+          "task": 5,
+          "oldMSE": {
+            "protected": 0.110231151423979,
+            "adaptive": 0.11022939387536852,
+            "shared": 0.18862546553090853
+          }
+        },
+        {
+          "t": 2304,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.110231151423979,
+            "adaptive": 0.11022959386328401,
+            "shared": 0.16125311948689255
+          }
+        },
+        {
+          "t": 2560,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.110231151423979,
+            "adaptive": 0.110230689338243,
+            "shared": 0.24700943063101333
+          }
+        },
+        {
+          "t": 2816,
+          "task": 4,
+          "oldMSE": {
+            "protected": 0.110231151423979,
+            "adaptive": 0.11022999985084647,
+            "shared": 0.2499823545634056
+          }
+        },
+        {
+          "t": 3072,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.110231151423979,
+            "adaptive": 0.1102246436009952,
+            "shared": 0.24982484451278927
+          }
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "scenario": "capacity",
+      "seed": 44,
+      "samples": 3072,
+      "complete": true,
+      "budget": {
+        "numericSlots": 28,
+        "payloadBytes": 224,
+        "excludes": "JS overhead, global bookkeeping, configuration, scratch and evaluation data"
+      },
+      "metrics": {
+        "protected": {
+          "onlineMSE": 0.11304395745087059,
+          "acquisitionMSE": 0.11022679558651556,
+          "finalMSE": 0.11022679558651556,
+          "oldMSE": 0.11022679558651556,
+          "forgetting": 0,
+          "compositionMSE": 0.18370919362882746,
+          "error": 347.27103728907446,
+          "full": 1024,
+          "writes": 512,
+          "reads": 1536,
+          "usedRecords": 4
+        },
+        "adaptive": {
+          "onlineMSE": 0.11304542038429634,
+          "acquisitionMSE": 0.11022680010672553,
+          "finalMSE": 0.11022738854831604,
+          "oldMSE": 0.11022738854831604,
+          "forgetting": 5.884415905167028e-7,
+          "compositionMSE": 0.1837090919612225,
+          "error": 347.27553142055837,
+          "full": 1024,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": 4
+        },
+        "shared": {
+          "onlineMSE": 0.009939620881187022,
+          "acquisitionMSE": 0.0026782026371610494,
+          "finalMSE": 0.22687540560978314,
+          "oldMSE": 0.22687540560978314,
+          "forgetting": 0.2241972029726221,
+          "compositionMSE": 0.48947522411346284,
+          "error": 30.534515347006533,
+          "full": 0,
+          "writes": 3072,
+          "reads": 0,
+          "usedRecords": null
+        }
+      },
+      "history": [
+        {
+          "t": 256,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.000017479156482447385,
+            "adaptive": 0.00001227060827485559,
+            "shared": 0.002088192270126729
+          }
+        },
+        {
+          "t": 512,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.000010933089021746607,
+            "adaptive": 0.000008589021555060242,
+            "shared": 0.008584796869334518
+          }
+        },
+        {
+          "t": 768,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.000008578856878951193,
+            "adaptive": 0.000010806427656152525,
+            "shared": 0.039378259540296924
+          }
+        },
+        {
+          "t": 1024,
+          "task": 4,
+          "oldMSE": {
+            "protected": 0.000010239827928239543,
+            "adaptive": 0.000010246608243188256,
+            "shared": 0.012245750149178811
+          }
+        },
+        {
+          "t": 1280,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.06614017328308062,
+            "adaptive": 0.0661401787073326,
+            "shared": 0.14075817981594857
+          }
+        },
+        {
+          "t": 1536,
+          "task": 5,
+          "oldMSE": {
+            "protected": 0.11022679558651556,
+            "adaptive": 0.11022680010672553,
+            "shared": 0.2431575879750544
+          }
+        },
+        {
+          "t": 1792,
+          "task": 5,
+          "oldMSE": {
+            "protected": 0.11022679558651556,
+            "adaptive": 0.11022680010672553,
+            "shared": 0.24422560570446625
+          }
+        },
+        {
+          "t": 2048,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.11022679558651556,
+            "adaptive": 0.11022680010672553,
+            "shared": 0.20096298337807886
+          }
+        },
+        {
+          "t": 2304,
+          "task": 4,
+          "oldMSE": {
+            "protected": 0.11022679558651556,
+            "adaptive": 0.11022731311268939,
+            "shared": 0.1343667148784969
+          }
+        },
+        {
+          "t": 2560,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.11022679558651556,
+            "adaptive": 0.11022663104102916,
+            "shared": 0.21667743578580934
+          }
+        },
+        {
+          "t": 2816,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.11022679558651556,
+            "adaptive": 0.11022779419054718,
+            "shared": 0.20722170884307112
+          }
+        },
+        {
+          "t": 3072,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.11022679558651556,
+            "adaptive": 0.11022738854831604,
+            "shared": 0.22687540560978314
+          }
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "scenario": "capacity",
+      "seed": 55,
+      "samples": 3072,
+      "complete": true,
+      "budget": {
+        "numericSlots": 28,
+        "payloadBytes": 224,
+        "excludes": "JS overhead, global bookkeeping, configuration, scratch and evaluation data"
+      },
+      "metrics": {
+        "protected": {
+          "onlineMSE": 0.11675045071712803,
+          "acquisitionMSE": 0.11022420200869575,
+          "finalMSE": 0.11022420200869575,
+          "oldMSE": 0.11022420200869575,
+          "forgetting": 0,
+          "compositionMSE": 0.18370815751166084,
+          "error": 358.6573846030173,
+          "full": 1024,
+          "writes": 512,
+          "reads": 1536,
+          "usedRecords": 4
+        },
+        "adaptive": {
+          "onlineMSE": 0.11675187725717372,
+          "acquisitionMSE": 0.11023042355900252,
+          "finalMSE": 0.11022750159734422,
+          "oldMSE": 0.11022750159734422,
+          "forgetting": -0.00000292196165829165,
+          "compositionMSE": 0.18370949052287425,
+          "error": 358.66176693403764,
+          "full": 1024,
+          "writes": 2048,
+          "reads": 0,
+          "usedRecords": 4
+        },
+        "shared": {
+          "onlineMSE": 0.010523641513062945,
+          "acquisitionMSE": 0.002040148293270798,
+          "finalMSE": 0.20232817541269701,
+          "oldMSE": 0.20232817541269701,
+          "forgetting": 0.20028802711942625,
+          "compositionMSE": 0.6325216209600426,
+          "error": 32.328626728129365,
+          "full": 0,
+          "writes": 3072,
+          "reads": 0,
+          "usedRecords": null
+        }
+      },
+      "history": [
+        {
+          "t": 256,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.000009062517285684875,
+            "adaptive": 0.00002226484772266611,
+            "shared": 0.0018839543440884723
+          }
+        },
+        {
+          "t": 512,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.00000851266147409749,
+            "adaptive": 0.000025403668304159456,
+            "shared": 0.013967748630028174
+          }
+        },
+        {
+          "t": 768,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.000006779925228327398,
+            "adaptive": 0.000019685694105576657,
+            "shared": 0.04269541987536737
+          }
+        },
+        {
+          "t": 1024,
+          "task": 5,
+          "oldMSE": {
+            "protected": 0.0000063494611985355205,
+            "adaptive": 0.000015681786658686557,
+            "shared": 0.02979786885621985
+          }
+        },
+        {
+          "t": 1280,
+          "task": 4,
+          "oldMSE": {
+            "protected": 0.06613706098969688,
+            "adaptive": 0.06614452685006499,
+            "shared": 0.06132906496344663
+          }
+        },
+        {
+          "t": 1536,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.11022420200869575,
+            "adaptive": 0.11023042355900252,
+            "shared": 0.4270832884109623
+          }
+        },
+        {
+          "t": 1792,
+          "task": 2,
+          "oldMSE": {
+            "protected": 0.11022420200869575,
+            "adaptive": 0.11023042355900252,
+            "shared": 0.46001348192561425
+          }
+        },
+        {
+          "t": 2048,
+          "task": 4,
+          "oldMSE": {
+            "protected": 0.11022420200869575,
+            "adaptive": 0.11023042355900252,
+            "shared": 0.2700715678614298
+          }
+        },
+        {
+          "t": 2304,
+          "task": 5,
+          "oldMSE": {
+            "protected": 0.11022420200869575,
+            "adaptive": 0.11023222999737237,
+            "shared": 0.14570785113423318
+          }
+        },
+        {
+          "t": 2560,
+          "task": 3,
+          "oldMSE": {
+            "protected": 0.11022420200869575,
+            "adaptive": 0.11023208828846486,
+            "shared": 0.1473402833295778
+          }
+        },
+        {
+          "t": 2816,
+          "task": 0,
+          "oldMSE": {
+            "protected": 0.11022420200869575,
+            "adaptive": 0.11022806715756468,
+            "shared": 0.20561500465878335
+          }
+        },
+        {
+          "t": 3072,
+          "task": 1,
+          "oldMSE": {
+            "protected": 0.11022420200869575,
+            "adaptive": 0.11022750159734422,
+            "shared": 0.20232817541269701
+          }
+        }
+      ]
+    }
+  ]
+}
